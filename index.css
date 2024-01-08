@@ -10,4 +10,12 @@ body {
     height: 100vh;
     border: solid black;
     overflow-y: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+label {
+    display: table-row;
 }
